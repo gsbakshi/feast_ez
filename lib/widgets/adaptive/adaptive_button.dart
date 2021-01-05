@@ -18,7 +18,7 @@ class AdaptiveButton extends StatelessWidget {
         ? CupertinoButton(
             color: Theme.of(context).buttonColor,
             child: Text(
-              'Add Transaction',
+              label,
               style: TextStyle(
                 fontWeight: FontWeight.w600,
                 color: Theme.of(context).textTheme.button.color,

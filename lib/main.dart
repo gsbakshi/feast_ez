@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter/services.dart';
+import 'package:meals_app/screens/meal_detail_screen.dart';
+import 'package:flutter/services.dart';
 
-import './categories_screen.dart';
+import 'screens/category_meals_screen.dart';
+import 'screens/categories_screen.dart';
 
 void main() {
-  // ## Make the app orientation fixed in Portrait Up mode
-  // WidgetsFlutterBinding.ensureInitialized();
-  // SystemChrome.setPreferredOrientations(
-  //   [DeviceOrientation.portraitUp],
-  // );
-  // ##
+  // ## Makes the app orientation fixed in Portrait Up mode
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations(
+    [DeviceOrientation.portraitUp],
+  );
   runApp(MyApp());
 }
 
@@ -46,6 +47,21 @@ class MyApp extends StatelessWidget {
       title: 'Deli Meals',
       theme: theme,
       home: CategoriesScreen(),
+      // initialRoute: '/',
+      routes: {
+        // CategoriesScreen.routeName: (ctx) => CategoriesScreen(),
+        CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
+        MealDetailScreen.routeName: (ctx) => MealDetailScreen(),
+      },
+      onGenerateRoute: (settings) {
+        print(settings.name);
+        return;
+      },
+      onUnknownRoute: (settings) {
+        return MaterialPageRoute(
+          builder: (ctx) => CategoriesScreen(),
+        );
+      },
     );
   }
 }
