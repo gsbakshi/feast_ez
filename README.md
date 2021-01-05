@@ -7,7 +7,7 @@
 
 An exercise from Maximilian Schwarzmüller's course on [Flutter & Dart - The Complete Guide](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) on Udemy.
 
-A Simple Cooking App, where a user can from a list of categories, view a set of recepies, their ingredients and steps for preparation. The user can also use a set of filters to further thin out the list of all meals based upon their preferances, as well as save a meal as their favorite.
+A Simple Cooking App, where a user can from a list of categories, view a set of recepies, their ingredients and steps for preparation. The user can also use a set of filters to further thin out the list of all meals based upon their preferences, as well as save a meal as their favorite.
 
 ## Objectives
 ```
