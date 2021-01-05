@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
 
 import '../dummy_data.dart';
-// import '../models/meal.dart';
 import '../widgets/styling/section_list.dart';
 import '../widgets/styling/section_title.dart';
 
 class MealDetailScreen extends StatelessWidget {
-  const MealDetailScreen({Key key}) : super(key: key);
-
   static const routeName = '/meal-detail-screen';
+
+  final Function toggleFavorite;
+  final Function isFavorite;
+  MealDetailScreen(
+    this.toggleFavorite,
+    this.isFavorite,
+  );
 
   @override
   Widget build(BuildContext context) {
@@ -16,11 +20,20 @@ class MealDetailScreen extends StatelessWidget {
     final selectedMeal = DUMMY_MEALS.firstWhere((meal) => meal.id == mealId);
     return Scaffold(
       appBar: AppBar(
-        // title: Text('$mealId'),
         title: Text('${selectedMeal.title}'),
+        actions: [
+          IconButton(
+            icon: isFavorite(mealId)
+                ? Icon(Icons.favorite)
+                : Icon(Icons.favorite_outline),
+            // onPressed: () {
+            //   Navigator.of(context).pop(mealId);
+            // },
+            onPressed: () => toggleFavorite(mealId),
+          ),
+        ],
       ),
       body: ListView(
-        // crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
             width: double.infinity,

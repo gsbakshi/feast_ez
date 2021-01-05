@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:meals_app/screens/meal_detail_screen.dart';
 
+import '../screens/meal_detail_screen.dart';
 import '../models/meal.dart';
 
 class MealItem extends StatelessWidget {
@@ -10,6 +10,7 @@ class MealItem extends StatelessWidget {
   final int duration;
   final Complexity complexity;
   final Affordability affordability;
+  // final Function removeItem;
 
   MealItem({
     @required this.id,
@@ -18,12 +19,21 @@ class MealItem extends StatelessWidget {
     @required this.duration,
     @required this.complexity,
     @required this.affordability,
+    // @required this.removeItem,
   });
 
   void selectMeal(BuildContext ctx) {
-    Navigator.of(ctx).pushNamed(
+    Navigator.of(ctx)
+        .pushNamed(
       MealDetailScreen.routeName,
       arguments: id,
+    )
+        .then(
+      (value) {
+        if (value != null) {
+          // removeItem(value);
+        }
+      },
     );
   }
 
@@ -59,7 +69,11 @@ class MealItem extends StatelessWidget {
     }
   }
 
-  Widget details({BuildContext context, IconData icon, String label}) {
+  Widget details({
+    BuildContext context,
+    IconData icon,
+    String label,
+  }) {
     return Padding(
       padding: const EdgeInsets.all(4.0),
       child: Row(
@@ -82,6 +96,31 @@ class MealItem extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  String getTime() {
+    String time = '$duration min';
+    if (duration < 60) {
+      time = '$duration mins';
+    } else if (duration == 60) {
+      time = '1 hr';
+    } else if (duration > 60 && duration < 120) {
+      time = '1 hr  ${duration - 60} mins';
+    } else if (duration == 120) {
+      time = '2 hrs';
+    } else if (duration > 120 && duration < 180) {
+      time = '2 hrs  ${duration - 120} mins';
+    } else if (duration == 180) {
+      time = '3 hrs';
+    } else if (duration > 180 && duration < 240) {
+      time = '3 hrs  ${duration - 180} mins';
+    } else if (duration == 240) {
+      time = '4 hrs';
+    } else if (duration > 240 && duration < 300) {
+      time = '4 hrs  ${duration - 180} mins';
+    }
+
+    return time;
   }
 
   @override
@@ -135,7 +174,7 @@ class MealItem extends StatelessWidget {
                   details(
                     context: context,
                     icon: Icons.schedule,
-                    label: '$duration min',
+                    label: getTime(),
                   ),
                   details(
                     context: context,

@@ -29,7 +29,6 @@ class CategoryItem extends StatelessWidget {
   Widget build(BuildContext context) {
     const double borderRadius = 15;
     return InkWell(
-      // onTap: () => adaptivePageRoute(context, CategoryMeals(categoryId: id, categoryTitle: title,),),
       onTap: () => selectCategory(context),
       splashColor: Theme.of(context).primaryColor,
       borderRadius: BorderRadius.circular(borderRadius),
