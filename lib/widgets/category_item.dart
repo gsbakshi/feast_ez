@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../screens/category_meals_screen.dart';
-// import 'adaptive/adaptive_page_route.dart';
 
 class CategoryItem extends StatelessWidget {
   final String id;
