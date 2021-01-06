@@ -26,9 +26,9 @@ Simulator used was an iPhone 12 Pro Max.
 *Fixed in portrait mode*
 
 <!-- ### Main Screen -->
-<div style="display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space=between;">
+<div style="display:flex;flex-direction:row;flex-wrap:wrap;">
     <div style="display:flex;flex-direction:column;">
-        Homepage / Categories Screen
+        <p>Homepage / Categories Screen</p>
         <img src="/Screenshots/1.png" alt="Categories" width=30%>
     </div>
     <div style="display:flex;flex-direction:column;">
@@ -39,42 +39,7 @@ Simulator used was an iPhone 12 Pro Max.
         Homepage / Favorites Screen
         <img src="/Screenshots/3.png" alt="Categories" width=30%>
     </div>
-    <!-- <div style="display:flex;flex-direction:column;">
-        <p>Category Meals Screen</p>
-        <img src="/Screenshots/4.png" alt="Categories" width=30%>
-    </div>
-    <div style="display:flex;flex-direction:column;">
-        <p>Category Meals Screen</p>
-        <img src="/Screenshots/5.png" alt="Categories" width=30%>
-    </div>
-    <div style="display:flex;flex-direction:column;">
-        <p>Category Meals Screen</p>    
-        <img src="/Screenshots/8.png" alt="Categories" width=30%>
-    </div>
-    <div style="display:flex;flex-direction:column;">
-        <p>Meal Detail Screen</p>    
-        <img src="/Screenshots/6.png" alt="Categories" width=30%>
-    </div>
-    <div style="display:flex;flex-direction:column;">
-        <p>Meal Detail Screen, Toggled Favorite</p>    
-        <img src="/Screenshots/7.png" alt="Categories" width=30%>
-    </div>
-    <div style="display:flex;flex-direction:column;">
-        <p>Meal Detail Screen, Toggled Favorite</p>
-        <img src="/Screenshots/9.png" alt="Categories" width=30%>
-    </div>
-    <div style="display:flex;flex-direction:column;">
-        <p>Favorites Screen</p>
-        <img src="/Screenshots/10.png" alt="Categories" width=30%>
-    </div>
-    <div style="display:flex;flex-direction:column;">
-        <p>Filters Screen</p>
-        <img src="/Screenshots/11.png" alt="Categories" width=30%>
-    </div>
-    <div style="display:flex;flex-direction:column;">
-        <p>Filters Screen, Toggled</p>
-        <img src="/Screenshots/12.png" alt="Categories" width=30%>-->
-    </div> 
+</div> 
 
 
     <!-- <div style="display:flex;flex-direction:column;">
