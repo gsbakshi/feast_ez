@@ -29,15 +29,15 @@ Simulator used was an iPhone 12 Pro Max.
 <div style="display:flex;">
     <figure style="display:flex;flex-direction:column;">
         <figcaption>Homepage / Categories Screen</figcaption>
-        <img src="/Screenshots/1.png" alt="Categories" width=30%>
+        <img src="/Screenshots/1.png" alt="Categories" width=20%>
     </figure>
     <figure style="display:flex;flex-direction:column;">
         <figcaption>Side Drawer</figcaption>
-        <img src="/Screenshots/2.png" alt="Categories" width=30%>
+        <img src="/Screenshots/2.png" alt="Categories" width=20%>
     </figure>
     <figure style="display:flex;flex-direction:column;">
         <figcaption>Homepage / Favorites Screen</figcaption>
-        <img src="/Screenshots/3.png" alt="Categories" width=30%>
+        <img src="/Screenshots/3.png" alt="Categories" width=20%>
     </figure>
     <!-- <div style="display:flex;flex-direction:column;">
         <p>Category Meals Screen</p>
