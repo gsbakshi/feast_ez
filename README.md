@@ -26,12 +26,3 @@ Simulator used was an iPhone 12 Pro Max.
 *Fixed in portrait mode*
 
 ![Walkthrough](Meals.svg)
-![Walkthrough](Meals.pdf)
-
-<!-- <div style="display:flex;flex-direction:row;flex-wrap:wrap;">
-    <div style="display:flex;flex-direction:column;">
-        <label>Homepage / Categories Screen</label>
-        <img src="/Screenshots/1.png" alt="Categories" width=30%>
-    </div>
-    
-</div>  -->
