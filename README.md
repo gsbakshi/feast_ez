@@ -27,10 +27,10 @@ Simulator used was an iPhone 12 Pro Max.
 
 <!-- ### Main Screen -->
 <div style="display:flex;">
-    <figure style="display:flex;flex-direction:column;">
+    <div style="display:flex;flex-direction:column;">
         <figcaption>Homepage / Categories Screen</figcaption>
         <img src="/Screenshots/1.png" alt="Categories" width=20%>
-    </figure>
+    </div>
     <figure style="display:flex;flex-direction:column;">
         <figcaption>Side Drawer</figcaption>
         <img src="/Screenshots/2.png" alt="Categories" width=20%>
