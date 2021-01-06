@@ -73,8 +73,8 @@ Simulator used was an iPhone 12 Pro Max.
     </div>
     <div style="display:flex;flex-direction:column;">
         <p>Filters Screen, Toggled</p>
-        <img src="/Screenshots/12.png" alt="Categories" width=30%>
-    </div> -->
+        <img src="/Screenshots/12.png" alt="Categories" width=30%>-->
+    </div> 
 
 
     <!-- <div style="display:flex;flex-direction:column;">
