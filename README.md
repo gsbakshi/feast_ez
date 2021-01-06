@@ -22,57 +22,60 @@ A Simple Cooking App, where a user can from a list of categories, view a set of 
 ## Walkthrough
 
 Simulator used was an iPhone 12 Pro Max.
+\n
 *Fixed in portrait mode*
 
 <!-- ### Main Screen -->
 <div style="display:flex">
-    <figure>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/1.png" alt="Categories" width=30%>
-        <figcaption>Homepage / Categories Screen</figcaption>
-    </figure>
-    <figure>
+        <p>Homepage / Categories Screen</p>
+    </div>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/2.png" alt="Categories" width=30%>
-        <figcaption>Side Drawer</figcaption>
-    </figure>
-    <figure>
-        <figcaption>Homepage / Favorites Screen</figcaption>
+        <p>Side Drawer</p>
+    </div>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/3.png" alt="Categories" width=30%>
-    </figure>
-    <!-- <figure>
-        <figcaption>Category Meals Screen</figcaption>
+        <p>Homepage / Favorites Screen</p>
+    </div>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/4.png" alt="Categories" width=30%>
-    </figure>
-    <figure>
-        <figcaption>Category Meals Screen</figcaption>
+        <p>Category Meals Screen</p>
+    </div>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/5.png" alt="Categories" width=30%>
-    </figure>
-    <figure>
-        <figcaption>Category Meals Screen</figcaption>
+        <p>Category Meals Screen</p>
+    </div>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/8.png" alt="Categories" width=30%>
-    </figure>
-    <figure>
-        <figcaption>Meal Detail Screen</figcaption>
+        <p>Category Meals Screen</p>    
+    </div>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/6.png" alt="Categories" width=30%>
-    </figure>
-    <figure>
-        <figcaption>Meal Detail Screen, Toggled Favorite</figcaption>
+        <p>Meal Detail Screen</p>    
+    </div>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/7.png" alt="Categories" width=30%>
-    </figure>
-    <figure>
-        <figcaption>Meal Detail Screen, Toggled Favorite</figcaption>
+        <p>Meal Detail Screen, Toggled Favorite</p>    
+    </div>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/9.png" alt="Categories" width=30%>
-    </figure>
-    <figure>
-        <figcaption>Favorites Screen</figcaption>
+        <p>Meal Detail Screen, Toggled Favorite</p>
+    </div>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/10.png" alt="Categories" width=30%>
-    </figure>
-    <figure>
-        <figcaption>Filters Screen</figcaption>
+        <p>Favorites Screen</p>
+    </div>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/11.png" alt="Categories" width=30%>
-    </figure>
-    <figure>
-        <figcaption>Filters Screen, Toggled</figcaption>
+        <p>Filters Screen</p>
+    </div>
+    <div style="display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space=between;">
         <img src="/Screenshots/12.png" alt="Categories" width=30%>
+        <p>Filters Screen, Toggled</p>
+    </div>
+    <!-- <figure>
     </figure> -->
     <!-- <label>
     <img src="/Screenshots/1.png" alt="Screenshot" width=30%>
