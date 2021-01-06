@@ -26,7 +26,7 @@ Simulator used was an iPhone 12 Pro Max.
 *Fixed in portrait mode*
 
 <!-- ### Main Screen -->
-<div style="display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space=between;">
+<div style="display:flex;">
     <figure>
         <figcaption>Homepage / Categories Screen</figcaption>
         <img src="/Screenshots/1.png" alt="Categories" width=30%>
