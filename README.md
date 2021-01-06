@@ -22,12 +22,63 @@ A Simple Cooking App, where a user can from a list of categories, view a set of 
 ## Walkthrough
 
 Simulator used was an iPhone 12 Pro Max.
+*Fixed in portrait mode*
 
-<!-- ### In Portrait Mode
+<!-- ### Main Screen -->
 <div style="display:flex">
+    <figure>
+        <figcaption>Homepage / Categories Screen</figcaption>
+        <img src="/Screenshots/1.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Side Drawer</figcaption>
+        <img src="/Screenshots/2.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Homepage / Favorites Screen</figcaption>
+        <img src="/Screenshots/3.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Category Meals Screen</figcaption>
+        <img src="/Screenshots/4.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Category Meals Screen</figcaption>
+        <img src="/Screenshots/5.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Category Meals Screen</figcaption>
+        <img src="/Screenshots/8.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Meal Detail Screen</figcaption>
+        <img src="/Screenshots/6.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Meal Detail Screen, Toggled Favorite</figcaption>
+        <img src="/Screenshots/7.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Meal Detail Screen, Toggled Favorite</figcaption>
+        <img src="/Screenshots/9.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Favorites Screen</figcaption>
+        <img src="/Screenshots/10.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Filters Screen</figcaption>
+        <img src="/Screenshots/11.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Filters Screen, Toggled</figcaption>
+        <img src="/Screenshots/12.png" alt="Categories" width=30%>
+    </figure>
+    <!-- <label>
     <img src="/Screenshots/1.png" alt="Screenshot" width=30%>
+    </label>
     <img src="/Screenshots/2.png" alt="Screenshot" width=30%>
     <img src="/Screenshots/3.png" alt="Screenshot" width=30%>
     <img src="/Screenshots/4.png" alt="Screenshot" width=30%>
-    <img src="/Screenshots/5.png" alt="Screenshot" width=30%>
-</div> -->
+    <img src="/Screenshots/5.png" alt="Screenshot" width=30%> -->
+</div>
