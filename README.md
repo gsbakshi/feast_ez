@@ -26,19 +26,19 @@ Simulator used was an iPhone 12 Pro Max.
 *Fixed in portrait mode*
 
 <!-- ### Main Screen -->
-<div style="display:flex;flex-direction:row;">
-    <div style="display:flex;flex-direction:column;">
-        <p>Homepage / Categories Screen</p>
-        <img src="/Screenshots/1.png" alt="Categories" width=20%>
-    </div>
-    <div style="display:flex;flex-direction:column;">
-        <p>Side Drawer</p>
-        <img src="/Screenshots/2.png" alt="Categories" width=20%>
-    </div>
-    <div style="display:flex;flex-direction:column;">
-        <p>Homepage / Favorites Screen</p>
-        <img src="/Screenshots/3.png" alt="Categories" width=20%>
-    </div>
+<div style="display:flex;">
+    <figure>
+        <figcaption>Homepage / Categories Screen</figcaption>
+        <img src="/Screenshots/1.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Side Drawer</figcaption>
+        <img src="/Screenshots/2.png" alt="Categories" width=30%>
+    </figure>
+    <figure>
+        <figcaption>Homepage / Favorites Screen</figcaption>
+        <img src="/Screenshots/3.png" alt="Categories" width=30%>
+    </figure>
     <!-- <div style="display:flex;flex-direction:column;">
         <p>Category Meals Screen</p>
         <img src="/Screenshots/4.png" alt="Categories" width=30%>
@@ -73,7 +73,7 @@ Simulator used was an iPhone 12 Pro Max.
     </div>
     <div style="display:flex;flex-direction:column;">
         <p>Filters Screen, Toggled</p>
-        <img src="/Screenshots/12.png" alt="Categories" width=30%>-->
+        <img src="/Screenshots/12.png" alt="Categories" width=30%> -->
     </div> 
 
 
