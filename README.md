@@ -27,18 +27,18 @@ Simulator used was an iPhone 12 Pro Max.
 <!-- ### Main Screen -->
 <div style="display:flex">
     <figure>
-        <figcaption>Homepage / Categories Screen</figcaption>
         <img src="/Screenshots/1.png" alt="Categories" width=30%>
+        <figcaption>Homepage / Categories Screen</figcaption>
     </figure>
     <figure>
-        <figcaption>Side Drawer</figcaption>
         <img src="/Screenshots/2.png" alt="Categories" width=30%>
+        <figcaption>Side Drawer</figcaption>
     </figure>
     <figure>
         <figcaption>Homepage / Favorites Screen</figcaption>
         <img src="/Screenshots/3.png" alt="Categories" width=30%>
     </figure>
-    <figure>
+    <!-- <figure>
         <figcaption>Category Meals Screen</figcaption>
         <img src="/Screenshots/4.png" alt="Categories" width=30%>
     </figure>
@@ -73,12 +73,9 @@ Simulator used was an iPhone 12 Pro Max.
     <figure>
         <figcaption>Filters Screen, Toggled</figcaption>
         <img src="/Screenshots/12.png" alt="Categories" width=30%>
-    </figure>
+    </figure> -->
     <!-- <label>
     <img src="/Screenshots/1.png" alt="Screenshot" width=30%>
     </label>
-    <img src="/Screenshots/2.png" alt="Screenshot" width=30%>
-    <img src="/Screenshots/3.png" alt="Screenshot" width=30%>
-    <img src="/Screenshots/4.png" alt="Screenshot" width=30%>
-    <img src="/Screenshots/5.png" alt="Screenshot" width=30%> -->
+     -->
 </div>
